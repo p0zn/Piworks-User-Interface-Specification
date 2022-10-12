@@ -1,1 +1,15 @@
-# Piworks-User-Interface-Specification
+### Pages : 
+-- Given Page(/link here)
+- Header(+New User button for new users to register, check box to hide disabled users, Save user button for saving new user.)
+- Table to see existing users on the system.
+    - Table headings(ID, User Name, Email , Enabled. Each title will have sorting and filtering feature.)
+- Table content area.
+    - Default system users will be added. 
+    - For Admin User :  
+      - ID : 1 , User Name : AdminUser, Email : admin@piworks.net, Enabled : true
+    - For Test User :
+      - ID : 2 , User Name : Test User, Email : testuser@piworks.net, Enabled : true
+- New user registration card field to the right of the table.
+  - Card Header(New User)
+  - Card Fields : 
+    - Username:, Display Name:, Phone:, Email:, User Roles: -> Guest,Admin,SuperAdmin, Enabled checkbox 
